@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+  <projectNamespace>dxticket</projectNamespace>
+  <confirmParams>false</confirmParams>
+  <selectedProjectPackage>com.dxticket</selectedProjectPackage>
+  <selectedBeansPackage>com.dxticket.beans</selectedBeansPackage>
+  <selectedComponentsPackage>com.dxticket.components</selectedComponentsPackage>
+  <selectedRestPackage>com.dxticket.rest</selectedRestPackage>
+  <hstRoot>/hst:dxticket</hstRoot>
+  <webfileBundleName>site</webfileBundleName>
+  <setupDone>false</setupDone>
+  <useSamples>true</useSamples>
+  <extraTemplates>true</extraTemplates>
+</project>
