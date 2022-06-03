@@ -9,10 +9,10 @@
         <version>15.0.1</version>
     </parent>
 
-    <name>dxticket</name>
-    <description>dxticket</description>
-    <groupId>com.dxticket</groupId>
-    <artifactId>dxticket</artifactId>
+    <name>dxticket Website</name>
+    <description>dxticket Website</description>
+    <groupId>com.incentro</groupId>
+    <artifactId>dxticketwebsite</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -249,7 +249,7 @@
                 <docker.db.bind.1>${project.basedir}/target/mysql-data:/var/lib/mysql</docker.db.bind.1>
                 <docker.db.bind.2>${project.basedir}/db-bootstrap:/docker-entrypoint-initdb.d</docker.db.bind.2>
 
-                <docker.brxm.envRun.MYSQL_DB_HOST>${docker.container.db.net.dxticket-network.ip}
+                <docker.brxm.envRun.MYSQL_DB_HOST>${docker.container.db.net.dxticketwebsite-network.ip}
                 </docker.brxm.envRun.MYSQL_DB_HOST>
             </properties>
         </profile>
@@ -264,7 +264,7 @@
                 <docker.db.bind.1>${docker.postgres.bind.1}</docker.db.bind.1>
                 <docker.db.bind.2>${project.basedir}/db-bootstrap:/docker-entrypoint-initdb.d</docker.db.bind.2>
 
-                <docker.brxm.envRun.POSTGRES_DB_HOST>${docker.container.db.net.dxticket-network.ip}
+                <docker.brxm.envRun.POSTGRES_DB_HOST>${docker.container.db.net.dxticketwebsite-network.ip}
                 </docker.brxm.envRun.POSTGRES_DB_HOST>
             </properties>
         </profile>
@@ -272,7 +272,7 @@
         <profile>
             <id>docker.windows</id>
             <properties>
-                <docker.postgres.bind.1>dxticket-postgres-data:/var/lib/postgresql/data</docker.postgres.bind.1>
+                <docker.postgres.bind.1>dxticketwebsite-postgres-data:/var/lib/postgresql/data</docker.postgres.bind.1>
             </properties>
         </profile>
 
@@ -341,13 +341,13 @@
                                 <files>
                                     <file>
                                         <file>
-                                            ${project.basedir}/repository-data/development/target/dxticket-repository-data-development-${project.version}.jar
+                                            ${project.basedir}/repository-data/development/target/dxticketwebsite-repository-data-development-${project.version}.jar
                                         </file>
                                         <todir>${development-module-deploy-dir}</todir>
                                     </file>
                                     <file>
                                         <file>
-                                            ${project.basedir}/repository-data/site-development/target/dxticket-repository-data-site-development-${project.version}.jar
+                                            ${project.basedir}/repository-data/site-development/target/dxticketwebsite-repository-data-site-development-${project.version}.jar
                                         </file>
                                         <todir>${development-module-deploy-dir}</todir>
                                     </file>

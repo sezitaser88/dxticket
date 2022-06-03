@@ -3,11 +3,11 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.dxticket</groupId>
-    <artifactId>dxticket</artifactId>
+    <groupId>com.incentro</groupId>
+    <artifactId>dxticketwebsite</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>dxticket-site</artifactId>
+  <artifactId>dxticketwebsite-site</artifactId>
   <packaging>pom</packaging>
   <name>dxticket Site</name>
   <description>dxticket Site</description>
