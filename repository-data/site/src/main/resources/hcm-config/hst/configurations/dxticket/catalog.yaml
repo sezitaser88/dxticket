@@ -2,5 +2,5 @@ definitions:
   config:
     /hst:hst/hst:configurations/dxticket/hst:catalog:
       jcr:primaryType: hst:catalog
-      /dxticket-catalog:
+      /dxticketwebsite-catalog:
         jcr:primaryType: hst:containeritempackage
