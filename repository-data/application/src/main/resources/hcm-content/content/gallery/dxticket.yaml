@@ -1,7 +1,7 @@
 /content/gallery/dxticket:
   jcr:primaryType: hippogallery:stdImageGallery
   jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 6e3c63b2-9714-4ef5-930e-797e2f024ac3
   hippo:name: dxticket
   hippostd:foldertype: [new-image-folder]
   hippostd:gallerytype: ['hippogallery:imageset']
-
