@@ -3,11 +3,9 @@ definitions:
     /hippo:namespaces/dxticket/basedocument:
       jcr:primaryType: hipposysedit:templatetype
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: 6ef05055-8623-468a-a7c3-28ddf3e3ee46
       /hipposysedit:nodetype:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['mix:referenceable']
-        jcr:uuid: e20cd480-977e-44e1-9d0b-3f9976866f93
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['hipposysedit:remodel']

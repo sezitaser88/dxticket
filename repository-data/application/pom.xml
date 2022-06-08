@@ -3,14 +3,14 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.incentro</groupId>
-    <artifactId>dxticketwebsite-repository-data</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <groupId>com.dxticket</groupId>
+    <artifactId>dxticket-repository-data</artifactId>
+    <version>SNAPSHOT</version>
   </parent>
 
   <name>dxticket Repository Data For Application</name>
   <description>dxticket Repository Data For Application</description>
-  <artifactId>dxticketwebsite-repository-data-application</artifactId>
+  <artifactId>dxticket-repository-data-application</artifactId>
 
   <build>
     <defaultGoal>install</defaultGoal>

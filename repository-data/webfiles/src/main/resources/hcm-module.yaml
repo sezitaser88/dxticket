@@ -2,4 +2,4 @@ group:
   name: dxticket
 project: dxticket
 module:
-  name: dxticketwebsite-repository-data-webfiles
+  name: dxticket-repository-data-webfiles

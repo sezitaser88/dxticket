@@ -3,30 +3,30 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.incentro</groupId>
-    <artifactId>dxticketwebsite-site</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <groupId>com.dxticket</groupId>
+    <artifactId>dxticket-site</artifactId>
+    <version>SNAPSHOT</version>
   </parent>
-  <artifactId>dxticketwebsite-webapp</artifactId>
+  <artifactId>dxticket-webapp</artifactId>
   <packaging>war</packaging>
   <name>dxticket Site Webapp</name>
   <description>dxticket Site Webapp</description>
 
   <dependencies>
     <dependency>
-      <groupId>com.incentro</groupId>
-      <artifactId>dxticketwebsite-repository-data-site</artifactId>
+      <groupId>com.dxticket</groupId>
+      <artifactId>dxticket-repository-data-site</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.incentro</groupId>
-      <artifactId>dxticketwebsite-repository-data-webfiles</artifactId>
+      <groupId>com.dxticket</groupId>
+      <artifactId>dxticket-repository-data-webfiles</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.incentro</groupId>
-      <artifactId>dxticketwebsite-components</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
+      <groupId>com.dxticket</groupId>
+      <artifactId>dxticket-components</artifactId>
+      <version>SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.onehippo.cms7.hst.toolkit-resources.addon</groupId>

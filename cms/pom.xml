@@ -3,18 +3,18 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.incentro</groupId>
-    <artifactId>dxticketwebsite</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <groupId>com.dxticket</groupId>
+    <artifactId>dxticket</artifactId>
+    <version>SNAPSHOT</version>
   </parent>
-  <artifactId>dxticketwebsite-cms</artifactId>
+  <artifactId>dxticket-cms</artifactId>
   <packaging>war</packaging>
   <name>dxticket CMS</name>
   <description>dxticket CMS</description>
   <dependencies>
     <dependency>
       <groupId>${project.groupId}</groupId>
-      <artifactId>dxticketwebsite-cms-dependencies</artifactId>
+      <artifactId>dxticket-cms-dependencies</artifactId>
       <version>${project.version}</version>
       <type>pom</type>
     </dependency>

@@ -3,14 +3,14 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.incentro</groupId>
-    <artifactId>dxticketwebsite</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <groupId>com.dxticket</groupId>
+    <artifactId>dxticket</artifactId>
+    <version>SNAPSHOT</version>
   </parent>
 
   <name>dxticket Repository Data</name>
   <description>dxticket Repository Data</description>
-  <artifactId>dxticketwebsite-repository-data</artifactId>
+  <artifactId>dxticket-repository-data</artifactId>
   <packaging>pom</packaging>
 
   <modules>

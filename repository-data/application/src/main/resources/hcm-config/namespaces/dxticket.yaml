@@ -3,4 +3,3 @@ definitions:
     /hippo:namespaces/dxticket:
       jcr:primaryType: hipposysedit:namespace
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: ad588102-bc4c-40a8-ab32-5e002bfd72c8
