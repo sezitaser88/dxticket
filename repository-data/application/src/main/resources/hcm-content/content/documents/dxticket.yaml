@@ -1,6 +1,8 @@
 /content/documents/dxticket:
+  .meta:order-before: administration
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: c3d4102c-d930-4e9b-8d22-8929385d6011
   hippo:name: dxticket
   hippostd:foldertype: [new-translated-folder, new-document]
   hippotranslation:id: 996bcac5-86cf-49b5-a7a3-16a74863e814

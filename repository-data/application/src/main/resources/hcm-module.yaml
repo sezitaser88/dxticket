@@ -3,4 +3,4 @@ group:
   after: hippo-cms
 project: dxticket
 module:
-  name: dxticket-repository-data-application
+  name: dxticketwebsite-repository-data-application

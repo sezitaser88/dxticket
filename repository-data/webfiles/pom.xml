@@ -3,19 +3,19 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.dxticket</groupId>
-    <artifactId>dxticket-repository-data</artifactId>
-    <version>SNAPSHOT</version>
+    <groupId>com.incentro</groupId>
+    <artifactId>dxticketwebsite-repository-data</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
   </parent>
 
   <name>dxticket Repository Data Web Files</name>
   <description>dxticket Repository Data Web Files</description>
-  <artifactId>dxticket-repository-data-webfiles</artifactId>
+  <artifactId>dxticketwebsite-repository-data-webfiles</artifactId>
 
   <dependencies>
     <dependency>
-      <groupId>com.dxticket</groupId>
-      <artifactId>dxticket-components</artifactId>
+      <groupId>com.incentro</groupId>
+      <artifactId>dxticketwebsite-components</artifactId>
       <version>${project.version}</version>
       <type>jar</type>
       <scope>provided</scope>

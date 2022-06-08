@@ -2,5 +2,5 @@ site: dxticket
 group: dxticket
 project: dxticket
 module:
-  name: dxticket-repository-data-site-development
-  after: dxticket-repository-data-site
+  name: dxticketwebsite-repository-data-site-development
+  after: dxticketwebsite-repository-data-site

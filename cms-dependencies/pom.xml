@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.dxticket</groupId>
-    <artifactId>dxticket</artifactId>
-    <version>SNAPSHOT</version>
+    <groupId>com.incentro</groupId>
+    <artifactId>dxticketwebsite</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>dxticket-cms-dependencies</artifactId>
+  <artifactId>dxticketwebsite-cms-dependencies</artifactId>
   <packaging>pom</packaging>
   <name>dxticket CMS Dependencies</name>
   <description>dxticket CMS Dependencies</description>
   <dependencies>
 
     <dependency>
-      <groupId>com.dxticket</groupId>
-      <artifactId>dxticket-repository-data-application</artifactId>
+      <groupId>com.incentro</groupId>
+      <artifactId>dxticketwebsite-repository-data-application</artifactId>
       <version>${project.version}</version>
     </dependency>
 
@@ -40,6 +39,15 @@
     <dependency>
       <groupId>org.onehippo.cms7</groupId>
       <artifactId>hippo-plugin-selections-addon-repository</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-plugin-content-blocks</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-enterprise-package-cms-dependencies</artifactId>
+      <type>pom</type>
     </dependency>
   </dependencies>
 </project>

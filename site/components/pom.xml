@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.dxticket</groupId>
-    <artifactId>dxticket-site</artifactId>
-    <version>SNAPSHOT</version>
+    <groupId>com.incentro</groupId>
+    <artifactId>dxticketwebsite-site</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>dxticket-components</artifactId>
+  <artifactId>dxticketwebsite-components</artifactId>
   <packaging>jar</packaging>
   <name>dxticket Site Components</name>
   <description>dxticket Site Components</description>
@@ -44,11 +43,16 @@
       <artifactId>hippo-plugin-selections-hst-client</artifactId>
     </dependency>
 
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-enterprise-package-site-dependencies</artifactId>
+      <type>pom</type>
+    </dependency>
+
   </dependencies>
   <build>
     <resources>
       <resource>
-        <filtering>false</filtering>
         <directory>src/main/java</directory>
         <includes>
           <include>**/*.properties</include>
