@@ -17,3 +17,12 @@ definitions:
       /pagenotfound-main:
         jcr:primaryType: hst:template
         hst:renderpath: webfile:/freemarker/dxticket/pagenotfound-main.ftl
+      /newspage-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/newspage-main.ftl
+      /contentlist-main-contentlist:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/contentlist-main-contentlist.ftl
+      /eventspage-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/eventspage-main.ftl
