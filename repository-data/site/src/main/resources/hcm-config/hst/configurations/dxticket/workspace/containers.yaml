@@ -24,6 +24,7 @@ definitions:
           hippo:identifier: 455bebca-a463-4017-b020-d3d9e52abf6f
           hst:label: Home Page Main
           hst:xtype: hst.vbox
+          hst:lastmodified: 2022-06-13T09:42:21.923+02:00
       /pagenotfound:
         jcr:primaryType: hst:containercomponentfolder
         /main:
@@ -31,4 +32,52 @@ definitions:
           jcr:primaryType: hst:containercomponent
           hippo:identifier: 56f41a46-9660-4fe7-ab8a-6b65de1b47e5
           hst:label: Page-Not-Found Main
+          hst:xtype: hst.vbox
+      /newslist:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 18a880d2-af94-4e5f-9c37-cd075e0c3d2e
+          hst:label: News List Main
+          hst:xtype: hst.vbox
+      /newspage:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 60fdc3bc-963b-430b-a26f-025cb47eae95
+          hst:label: News Page Main
+          hst:xtype: hst.vbox
+      /contentlist:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 700ec37e-561d-4aa6-b46e-e926e41ed3ec
+          hst:label: Content List Main
+          hst:xtype: hst.vbox
+      /contentpage:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 149d3d7f-86ed-429c-b71e-c7659030b1a1
+          hst:label: Content Page Main
+          hst:xtype: hst.vbox
+      /eventslist:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 97912105-893b-4ba6-99bc-517794a5f680
+          hst:label: Event List Main
+          hst:xtype: hst.vbox
+      /eventspage:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 5b7b8c78-7a7e-4a18-a104-986bc39a28b7
+          hst:label: Event Page Main
           hst:xtype: hst.vbox

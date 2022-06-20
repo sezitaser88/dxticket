@@ -1,7 +1,84 @@
 /content/documents/dxticket:
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 4b1dc2f0-6347-4fe2-8947-4fe7ad98eac1
   hippo:name: dxticket
   hippostd:foldertype: [new-translated-folder, new-document]
   hippotranslation:id: 996bcac5-86cf-49b5-a7a3-16a74863e814
   hippotranslation:locale: en
+  /banners:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: 82b53f10-2282-493c-bb9e-94380a34228a
+    hippostd:foldertype: [new-banner-document, new-banner-folder]
+    hippotranslation:id: 7fa6b69c-2fd2-4933-84b2-35ef248d3d52
+    hippotranslation:locale: en
+    /banner1:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 895fb1b6-410d-4972-9894-6b6a06d2b361
+      /banner1:
+        jcr:primaryType: dxticket:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: bb8f4ea9-d546-4905-86f7-043d5b4b962b
+        dxticket:title: Sample banner
+        hippo:availability: [live, preview]
+        hippostd:holder: admin
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+        hippostdpubwf:lastModificationDate: 2014-03-20T17:04:00+01:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2014-03-20T17:04:00+01:00
+        hippotranslation:id: c6721f42-49b3-44b0-81c7-a5fb926c9f90
+        hippotranslation:locale: en
+        /dxticket:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.</p>
+        /dxticket:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /dxticket:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner2:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 9a3f1f5c-5302-43c4-9bec-584e810ffa2f
+      hippo:name: banner2
+      /banner2:
+        jcr:primaryType: dxticket:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: e43f0bdf-4ae8-4440-a031-ac29d87e6665
+        dxticket:title: Sample banner 2
+        hippo:availability: [live, preview]
+        hippostd:holder: admin
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+        hippostdpubwf:lastModificationDate: 2014-03-20T17:04:00+01:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2014-03-20T17:04:00+01:00
+        hippotranslation:id: dee238b8-f4aa-4999-bbe6-ee982c6e3bb2
+        hippotranslation:locale: en
+        /dxticket:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.</p>
+        /dxticket:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: dc6c2247-d3f4-4be0-976e-749b69927eee
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /dxticket:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe

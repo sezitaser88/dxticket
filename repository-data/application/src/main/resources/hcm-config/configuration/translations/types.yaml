@@ -30,3 +30,121 @@ definitions:
         dxticket:link: Link
         dxticket:title: Titel
         jcr:name: Banner
+    /hippo:configuration/hippo:translations/hippo:types/dxticket:newsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        dxticket:author: Author
+        dxticket:content: Content
+        dxticket:date: Date
+        dxticket:image: Image
+        dxticket:introduction: Introduction
+        dxticket:location: Location
+        dxticket:source: Source
+        dxticket:title: Title
+        jcr:name: News Item
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        dxticket:author: Auteur
+        dxticket:content: Inhoud
+        dxticket:date: Datum
+        dxticket:image: Afbeelding
+        dxticket:introduction: Introductie
+        dxticket:location: Locatie
+        dxticket:source: Bron
+        dxticket:title: Titel
+        jcr:name: Nieuwsbericht
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        dxticket:author: Verfasser
+        dxticket:content: Inhalt
+        dxticket:date: Datum
+        dxticket:image: Abbildung
+        dxticket:introduction: Einführung
+        dxticket:location: Standort
+        dxticket:source: Quelle
+        dxticket:title: Titel
+        jcr:name: News
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        dxticket:author: Auteur
+        dxticket:content: Contenu
+        dxticket:date: Date
+        dxticket:image: Image
+        dxticket:introduction: Introduction
+        dxticket:location: Lieu
+        dxticket:source: Source
+        dxticket:title: Titre
+        jcr:name: Message d'info
+    /hippo:configuration/hippo:translations/hippo:types/dxticket:contentdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        dxticket:content: Content
+        dxticket:introduction: Introduction
+        dxticket:publicationdate: Publication date
+        dxticket:title: Title
+        jcr:name: Simple Document
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        dxticket:content: Inhoud
+        dxticket:introduction: Introductie
+        dxticket:publicationdate: Publicatiedatum
+        dxticket:title: Titel
+        jcr:name: Eenvoudig Document
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        dxticket:content: Contenu
+        dxticket:introduction: Introduction
+        dxticket:publicationdate: Date de publication
+        dxticket:title: Titre
+        jcr:name: Document simple
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        dxticket:content: Inhalt
+        dxticket:introduction: Einführung
+        dxticket:publicationdate: Publikationsdatum
+        dxticket:title: Titel
+        jcr:name: Einfaches Dokument
+    /hippo:configuration/hippo:translations/hippo:types/dxticket:eventsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        dxticket:content: Content
+        dxticket:date: Start date
+        dxticket:enddate: End date
+        dxticket:image: Image
+        dxticket:introduction: Introduction
+        dxticket:location: Location
+        dxticket:title: Title
+        jcr:name: Event
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        dxticket:content: Inhoud
+        dxticket:date: Startdatum
+        dxticket:enddate: Einddatum
+        dxticket:image: Afbeelding
+        dxticket:introduction: Introductie
+        dxticket:location: Locatie
+        dxticket:title: Titel
+        jcr:name: Evenement
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        dxticket:content: Contenu
+        dxticket:date: Date de début
+        dxticket:enddate: Date de fin
+        dxticket:image: Image
+        dxticket:introduction: Introduction
+        dxticket:location: Lieu
+        dxticket:title: Titre
+        jcr:name: Événement
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        dxticket:content: Inhalt
+        dxticket:date: Startdatum
+        dxticket:enddate: Enddatum
+        dxticket:image: Abbildung
+        dxticket:introduction: Einführung
+        dxticket:location: Standort
+        dxticket:title: Titel
+        jcr:name: Event

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@bloomreach/react-sdk": "^15.4.5"
+  }
+}
