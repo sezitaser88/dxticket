@@ -1,0 +1,32 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/dxticket:bannerdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        dxticket:content: Content
+        dxticket:image: Image
+        dxticket:link: Link
+        dxticket:title: Title
+        jcr:name: Banner
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        dxticket:content: Inhoud
+        dxticket:image: Afbeelding
+        dxticket:link: Link
+        dxticket:title: Titel
+        jcr:name: Banner
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        dxticket:content: Contenu
+        dxticket:image: Image
+        dxticket:link: Lien
+        dxticket:title: Titre
+        jcr:name: Bannière
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        dxticket:content: Inhalt
+        dxticket:image: Abbildung
+        dxticket:link: Link
+        dxticket:title: Titel
+        jcr:name: Banner
